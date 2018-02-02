@@ -1,0 +1,5 @@
+var lines = 0;
+while (lines < 10) {
+  line(random(width), random(height),340,0);
+  lines = lines + 1;
+}
