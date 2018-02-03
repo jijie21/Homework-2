@@ -1,0 +1,53 @@
+function setup(){
+  createCanvas(340, 340);
+background(255);
+colorMode(HSB);
+}
+
+function draw(){ 
+
+strokeWeight(5);
+stroke(0,0,0);
+
+fill(210,100,100); //blue 1
+  rect(0,0,100,45);
+  
+fill(55,100,100);//yellow 1
+  rect(100,0,100,45);
+  
+noFill();
+  rect(200,0,70,45);
+  rect(270,0,70,45);
+  
+fill(55,100,100);
+  rect(0,45,100,100);
+  
+fill(0,100,100);
+  rect(100,45,150,150);
+  
+noFill();
+ rect(250,45,90,80);
+  
+noFill();
+  rect(0,145,100,50);
+  
+fill(210,100,100);
+  rect(250,125,130,215);
+  
+fill(0,100,0);
+  rect(0,195,150,100);
+  
+noFill();
+  rect(150,195,100,210);
+  
+noFill();
+  rect(150,195,100,70);
+   
+strokeWeight(20);
+stroke(0,0,0);
+line(0,0,340,0);
+line(340,0,340,340);
+line(0,340,340,340);
+line(0,0,0,340);
+  
+               }
