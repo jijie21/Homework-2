@@ -1,1 +1,24 @@
+background(255);
+colorMode(HSB);
+noStroke();
 
+while(true) {
+  background(0, 0, 255, 0);
+  fill(random(90,270), 255, 255);
+beginShape(TRIANGLE_FAN);
+vertex(30, 75);
+vertex(40, 20);
+vertex(50, 75);
+vertex(60, 20);
+vertex(70, 75);
+vertex(80, 20);
+vertex(90, 75);
+vertex(100, 20);
+vertex(110, 75);
+vertex(120, 20);
+vertex(130, 75);
+vertex(140, 20);
+vertex(150, 75);
+vertex(160, 20);
+endShape();
+}
